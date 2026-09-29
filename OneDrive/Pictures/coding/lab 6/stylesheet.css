@@ -1,0 +1,112 @@
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main page */
+body {
+    font-family: Arial, sans-serif;
+
+    /* Nature background image */
+    background-image: url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+}
+
+/* Dark transparent layer around content */
+.container {
+    width: 800px;
+    max-width: 100%;
+
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.90);
+
+    padding: 50px;
+
+    border: 4px solid #2e7d32;
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Main heading */
+h1 {
+    color: #1b5e20;
+    font-size: 50px;
+
+    border-bottom: 3px solid #66bb6a;
+
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+/* Introduction text */
+.intro {
+    color: #33691e;
+    font-size: 20px;
+    line-height: 1.6;
+
+    margin-bottom: 30px;
+}
+
+/* Inner content box */
+.content-box {
+    background: #f1f8e9;
+
+    border: 2px solid #81c784;
+    border-radius: 15px;
+
+    padding: 30px;
+}
+
+/* Second heading */
+h2 {
+    color: #2e7d32;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+/* Paragraph */
+.content-box p {
+    color: #424242;
+
+    font-size: 17px;
+    line-height: 1.8;
+
+    margin-bottom: 25px;
+}
+
+/* Button */
+button {
+    background-color: #2e7d32;
+
+    color: white;
+
+    border: 2px solid #1b5e20;
+    border-radius: 8px;
+
+    padding: 12px 25px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #66bb6a;
+    color: #123d15;
+}
