@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visitor Age Check</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f1effb; text-align: center; padding-top: 95px; }
+        .card { background: white; width: 370px; margin: auto; padding: 32px; border-radius: 14px; box-shadow: 0 4px 14px #d8d2ee; }
+        input { box-sizing: border-box; width: 85%; padding: 11px; margin: 10px 0; border: 1px solid #c9c2e4; border-radius: 6px; }
+        button { padding: 11px 26px; background: #6653a6; color: white; border: 0; border-radius: 6px; cursor: pointer; }
+    </style>
+</head>
+<body>
+<div class="card">
+    <h2>Visitor Age Check</h2>
+    <p>Enter your details below.</p>
+    <form action="check.php" method="post">
+        <input type="text" name="username" placeholder="Enter your name" required>
+        <input type="number" name="age" placeholder="Enter your age" min="0" max="120" required>
+        <button type="submit">Check Age</button>
+    </form>
+</div>
+</body>
+</html>
